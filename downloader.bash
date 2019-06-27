@@ -9,9 +9,7 @@ while true; do
         break
     else
         echo "nope, not a directory! Try again."
-
-    
-    
+    fi
 done
 while true; do
     echo "which version would you like
@@ -36,4 +34,5 @@ done
 
 
 
+#git clone -b "beta" https://github.com/Evergreen1213/the_downloader.git; bash "the_downloader/downloader.bash"
 #git clone https://github.com/Evergreen1213/the_downloader.git; bash "/the_downloader/downloader.bash"
