@@ -31,7 +31,7 @@ while true; do
         clear
     fi
 done
-
+bash "the-miny-terminal-idk2/mainCode_launcher.bash"
 
 
 #git clone -b "beta" https://github.com/Evergreen1213/the_downloader.git; bash "the_downloader/downloader.bash"
