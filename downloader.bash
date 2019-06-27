@@ -1,9 +1,18 @@
+while true; do
 
+    echo drag the folder where you want the file to download into this terminal window
+    read download_folder
+    if [ -d "$download_folder" ]; then
+        echo directory exists
+        cd $download_folder
+        clear
+        break
+    else
+        echo "nope, not a directory! Try again."
 
-echo drag the folder where you want the file to download into this terminal window
-read download_folder
-cd $download_folder
-clear
+    
+    
+done
 while true; do
     echo "which version would you like
     ╭───────────────────╮
@@ -13,11 +22,11 @@ while true; do
     read version
     if [ $version = b ]; then
         git clone -b "beta_version-(experimental)" https://github.com/Evergreen1213/the-miny-terminal-idk2.git
-
+        
         break
     elif [ $version = m ]; then
         git clone https://github.com/Evergreen1213/the-miny-terminal-idk2.git
-        
+
         break
     else
         echo "choose an option please:"
